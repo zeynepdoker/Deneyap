@@ -5,7 +5,7 @@ class Nokta{
     public:
     void git(int, int);
     void goster();
-    void sifir_mi();
+    void sifirmi();
 };
 void Nokta::git(int x2, int y2)
 {
@@ -16,12 +16,12 @@ void Nokta::goster()
 {
     cout << "x noktasi: " << x << ", y noktasi: " << y << endl;
 }
-void Nokta::sifir_mi()
+void Nokta::sifirmi()
 {
     if ((x == 0) && (y == 0))
-        cout << "nokta su anda sifir noktasindadir." << endl;
+        cout << "nokta sıfır noktasındadır." << endl;
     else
-        cout << "nokta su anda sifir noktasinda degildir." << endl;
+        cout << "nokta sıfır noktasında değildir." << endl;
 }
 int main() {
     Nokta a;
